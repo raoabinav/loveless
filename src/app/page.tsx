@@ -8,8 +8,6 @@ import { Client } from "./client";
 import { Suspense } from "react";
 
 
-
-
 const Page = async () => {
   // fetch
   const data = await caller.hello({ text: "hello!" });
